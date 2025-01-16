@@ -1,0 +1,56 @@
+.code-display-field {
+  display: block;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.code-input-field {
+  display: block;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.code-display-field > div > h4 {
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 400;
+  font-size: 25px;
+  width: 600px;
+  text-align: left;
+}
+
+.code-horizontal-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(157, 157, 157, 0.7);
+  border-radius: 90px;
+  height: 80px;
+  
+  padding-right: 7px;
+  padding-left: 50px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 300;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}

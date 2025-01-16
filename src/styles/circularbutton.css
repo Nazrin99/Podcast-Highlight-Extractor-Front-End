@@ -1,0 +1,21 @@
+.circular-button {
+  width: 70px; /* Width and height should be the same to make it circular */
+  height: 70px;
+  background-color: #182645; /* Button background color */
+  color: white; /* Button text color */
+  border-radius: 50%; /* Make it circular */
+  display: flex; /* Flexbox to center content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+.circular-button:hover {
+  background-color: #8394b8; /* Darker blue on hover */
+}
+
+.button-image {
+  width: 50%; /* Ensures the image fills the entire area of the button */
+  height: 50%; /* Ensures the image fills the entire area of the button */
+}

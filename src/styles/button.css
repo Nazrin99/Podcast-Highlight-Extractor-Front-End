@@ -1,0 +1,24 @@
+.rounded-button {
+  background-color: #182645; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px 60px; /* Padding inside the button */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 500;
+}
+
+.rounded-button:hover {
+  background-color: #8394b8; /* Darker blue on hover */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 20px 0px;
+}

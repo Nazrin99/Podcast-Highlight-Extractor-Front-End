@@ -1,0 +1,43 @@
+.left-section {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+}
+
+.right-section {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9d9d9;
+}
+
+.base-canvas {
+  display: flex;
+  flex: 1; /* Take the remaining height available */
+  background-color: #f0f0f0; /* Add a background color for visibility */
+}
+.highlight-extraction-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.right-section > h4 {
+  font-family: "Montserrat", "sans-serif";
+  text-align: center;
+  font-weight: 400;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.left-section > h4 {
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 500;
+  font-size: 20px;
+}
